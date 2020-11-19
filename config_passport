@@ -1,0 +1,14 @@
+publicar las migraciones de passport
+Passport::ignoreMigrations(); method in the register method of your AppServiceProvider
+
+
+use Laravel\Passport\Passport;
+
+ public function register()
+    {
+        Passport::ignoreMigrations();
+    }
+    
+ correr el comando 
+ 
+ php artisan vendor:publish --tag=passport-migrations.

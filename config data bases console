@@ -1,0 +1,12 @@
+
+// buscar contenedor de mysql
+
+docker ps
+docker exec -it 3234343 bash
+
+mysql -u root -p
+secret
+
+create user 'user'@'%' identified by 'pass';
+grant all privileges on *.* to 'user'@'%' with grant option;
+flush privileges;
