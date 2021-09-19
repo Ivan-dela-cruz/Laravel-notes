@@ -1,9 +1,12 @@
 git config --global alias.co checkout
 git config --global alias.br branch
-git config --global alias.ci commit
+git config --global alias.ci "commit -m"
 git config --global alias.st status
 git config --global alias.alias "config --get-regexp ^alias\."
 git config --global alias.dev "pull origin dev"
+git config --global alias.master "pull origin master"
+git config --global alias.master "pull origin main"
 git config --global alias.pm "push -u origin master"
-git config --global alias.pi "push origin issue#"
+git config --global alias.pm "push -u origin main"
+git config --global alias.pi "push origin"
 
