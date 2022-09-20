@@ -12,4 +12,4 @@ git config --global alias.main "pull origin main"
 git config --global alias.pm "push -u origin master"
 git config --global alias.pmain "push -u origin main"
 git config --global alias.pi "push origin"
-
+git config --global alias.logdeco "log --pretty=oneline --graph --decorate --all"
